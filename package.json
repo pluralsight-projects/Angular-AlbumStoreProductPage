@@ -63,7 +63,7 @@
     "karma-coverage-istanbul-reporter": "1.2.1",
     "karma-jasmine": "1.1.0",
     "karma-jasmine-html-reporter": "0.2.2",
-    "karma-nightmare": "0.4.13",
+    "karma-nightmare": "^0.4.15",
     "karma-spec-reporter": "0.0.31",
     "karma-structured-json-reporter": "1.0.0",
     "minimist": "1.2.0",
