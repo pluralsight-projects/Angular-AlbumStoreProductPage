@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 p {
   font-size: 16px;
   font-family: Helvetica, Arial, sans-serif;
@@ -7,3 +8,14 @@ p {
 img {
   width: 100%;
 }
+=======
+p {
+  font-size: 16px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+
+img {
+  width: 100%;
+}
+>>>>>>> refs/remotes/origin/master
