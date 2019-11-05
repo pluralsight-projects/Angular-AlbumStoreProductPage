@@ -6,6 +6,11 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { ProductPageComponent } from './product-page/product-page.component';
 import { ProductDescriptionComponent } from './product-description/product-description.component';
+<<<<<<< HEAD
+=======
+
+import { ProductService } from './product.service'
+>>>>>>> 0c3586410f29141a7df1fc4e98ab1440374ec68d
 
 @NgModule({
   declarations: [
@@ -18,7 +23,7 @@ import { ProductDescriptionComponent } from './product-description/product-descr
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [ProductService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
