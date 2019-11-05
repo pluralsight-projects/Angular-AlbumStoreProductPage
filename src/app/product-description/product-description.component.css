@@ -4,3 +4,7 @@ p {
   font-family: Helvetica, Arial, sans-serif;
   font-weight: normal;
 }
+
+img {
+    width: 100%;
+}
