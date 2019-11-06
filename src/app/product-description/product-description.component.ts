@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ProductService } from '../product.service'
 import { Injectable } from '@angular/core'
+import { Album } from '../album';
 
 @Component({
   selector: 'app-product-description',
@@ -9,7 +10,7 @@ import { Injectable } from '@angular/core'
 })
 
 export class ProductDescriptionComponent implements OnInit {
-  albumInfo;
+  albumInfo:Album;
   constructor( private _productService: ProductService ) { }
 
   ngOnInit() {
