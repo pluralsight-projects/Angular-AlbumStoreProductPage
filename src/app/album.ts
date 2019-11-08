@@ -1,4 +1,4 @@
-import { track } from './track';
+import { Track } from './track';
 
 export interface Album {
 
