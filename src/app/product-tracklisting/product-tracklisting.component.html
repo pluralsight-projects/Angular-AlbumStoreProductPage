@@ -1,6 +1,6 @@
 <div class="row tracklisting">
   <ul>
-    <li ngFor = "let track of albumInfo?.album.tracks">
+    <li *ngFor = "let track of albumInfo?.album.tracks">
       <div class="col-sm-5">
         <span class="track-number">{{track.trackNumber}}</span>
         <span class="track-name">{{track.trackName}}</span>
