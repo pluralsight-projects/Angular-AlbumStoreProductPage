@@ -1,0 +1,11 @@
+ul {
+  list-style-type: none;
+}
+li {
+  display: block;
+
+  line-height: 30px;
+}
+button {
+  line-height: 1;
+}
