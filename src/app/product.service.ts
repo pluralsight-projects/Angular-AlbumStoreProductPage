@@ -20,7 +20,7 @@ export class ProductService {
 
   getProducts():Observable<Product[]>{
     return this._http.get(this._productsUrl)
-    .map(respone=><Product[]>respone.json())
+    .map(response=><Product[]>response.json())
   }
 
 
