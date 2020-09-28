@@ -2,12 +2,12 @@
   <ul>
     <li *ngFor="let track of albumInfo?.album.tracks">
       <div class="col-sm-5">
-        <span class="{{track.trackNumber}}">1</span>
-        <span class="{{track.trackName}}">The Last</span>
+        <span class="track-number">{{track.trackNumber}}</span>
+        <span class="track-name">{{track.trackName}}</span>
       </div>
       <div class="col-sm-3 text-right">
-        <span class="{{track.trackLength}}">4:48</span>
-        <span class="{{track.trackPrice}}"><button>$0.99</button></span>
+        <span class="track-time">{{track.trackLength}}</span>
+        <span class="price-and-buy"><button>{{track.trackPrice}}</button></span>
       </div>
     </li>
   </ul>
