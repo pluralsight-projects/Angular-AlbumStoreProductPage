@@ -1,7 +1,5 @@
-import { HttpClient  } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { catchError, tap, map } from 'rxjs/operators';
 import "rxjs/add/operator/map";
 import { Http, Response } from '@angular/http';
 
@@ -18,7 +16,7 @@ export class ProductService {
   getAlbum(id: number): Observable<Album> {
     return this._http.get(this._albumUrl).map((response) =>
       <Album>response.json());
-      
+
   }
 
 
